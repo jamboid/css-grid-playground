@@ -1,0 +1,22 @@
+/* != Document */
+
+/* Rules for <html> and <body> go here */
+body {
+  color:$clrDarkGrey;
+  background:$clrSecondary;
+  font-size:100%;
+  font-family:$bodyfontfamily;
+  font-weight:$normal;
+  line-height:1.5;
+  font-feature-settings: "kern" 1, "dlig" 1;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* !== Basic Typography Rules */
+h1,h2,h3,h4,h5,h6 {
+  font-family:$displayfontfamily;
+  font-weight:$bold;
+}

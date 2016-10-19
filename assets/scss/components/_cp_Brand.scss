@@ -1,0 +1,13 @@
+/* != Component - Brand */
+
+.cp_Brand {
+  img {
+    width: 100%;
+  }
+}
+
+@include mq(plusOne($bpLeia), $limit: min) {
+  .cp_Brand {
+    padding-bottom:15px;
+  }
+}

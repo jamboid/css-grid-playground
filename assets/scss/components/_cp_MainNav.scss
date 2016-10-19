@@ -1,0 +1,16 @@
+/* !== Main Nav */
+
+.cp_MainNav {
+  &__item {
+    font-family: $displayfontfamily;
+    font-weight: $semibold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color:$clrLightGrey;
+  }
+}

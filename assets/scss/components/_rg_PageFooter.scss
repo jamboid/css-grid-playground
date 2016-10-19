@@ -1,0 +1,12 @@
+/* != Region - Page Header */
+
+.rg_PageFooter {
+  padding:30px;
+  text-align: center;
+}
+
+@include mq(plusOne($bpLeia), $limit: min) {
+  .rg_PageFooter {
+    text-align: left;
+  }
+}
