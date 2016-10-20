@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19137",
+"creatorBuild": "19142",
 "files": {
 	"\/assets\/css\/img\/bottom_image_back.png": {
 		"fileType": 32768,
@@ -524,6 +524,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/kit\/_partials\/_grid-colour-layout.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/kit\/_partials\/_grid-colour-layout.kit",
+		"outputAbbreviatedPath": "\/assets\/kit\/_partials\/_grid-colour-layout.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/kit\/_partials\/_grid-simple-layout.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -550,6 +559,15 @@
 		"outputAbbreviatedPath": "\/assets\/kit\/_partials\/_navigation-menu.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/kit\/colour-grid.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/kit\/colour-grid.kit",
+		"outputAbbreviatedPath": "\/colour-grid.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
 		},
 	"\/assets\/kit\/index.kit": {
 		"fileType": 2048,
@@ -992,6 +1010,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/scss\/components\/_layout_ColourGrid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scss\/components\/_layout_ColourGrid.scss",
+		"outputAbbreviatedPath": "\/assets\/scss\/css\/_layout_ColourGrid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/scss\/components\/_layout_Grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1151,6 +1185,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/colour-grid.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/colour-grid.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,

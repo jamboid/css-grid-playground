@@ -621,6 +621,118 @@ h1, h2, h3, h4, h5, h6 {
   .rg_PageIntro,
   .rg_PageFooter {
     grid-column: 2 / span 4; } }
+/* != Grid Layout */
+.st_ColourPage {
+  display: grid;
+  grid-template-columns: repeat(2, 100px) 1fr repeat(6, 125px) 1fr;
+  grid-template-rows: 100px repeat(7, auto) 100px 100px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  padding: 15px; }
+
+/* !== Regions */
+.rg_Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 5px;
+  min-height: 70px; }
+  .rg_Section--one {
+    background-color: #FF3333;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 1; }
+  .rg_Section--two {
+    background-color: #3388DD;
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 4; }
+  .rg_Section--three {
+    background-color: #339988;
+    grid-column: 1 / span 10;
+    grid-row: 10 / span 1; }
+  .rg_Section--four {
+    background-color: #2a6;
+    grid-column: 4 / span 6;
+    grid-row: 2 / span 4;
+    min-height: 300px; }
+  .rg_Section--five {
+    background-color: #E6C449;
+    grid-column: 5 / span 4;
+    grid-row: 8 / span 1; }
+  .rg_Section--six {
+    background-color: #EE6633;
+    grid-column: 4 / span 2;
+    grid-row: 6 / span 2; }
+  .rg_Section--seven {
+    background-color: #9d3;
+    grid-column: 6 / span 2;
+    grid-row: 6 / span 2; }
+  .rg_Section--eight {
+    background-color: #1144cc;
+    grid-column: 8 / span 2;
+    grid-row: 6 / span 2; }
+
+/* If media queries are supported... */
+@media screen and (max-width: 68.75em) {
+  .st_ColourPage {
+    grid-template-columns: 100px repeat(3, 1fr);
+    grid-template-rows: 100px repeat(7, auto) 100px 100px; }
+
+  .rg_Section--one {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 9; }
+  .rg_Section--two {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 1; }
+  .rg_Section--three {
+    grid-column: 1 / span 4;
+    grid-row: 10 / span 1; }
+  .rg_Section--four {
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 5; }
+  .rg_Section--five {
+    grid-column: 2 / span 2;
+    grid-row: 9 / span 1; }
+  .rg_Section--six {
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 2; }
+  .rg_Section--seven {
+    grid-column: 3 / span 1;
+    grid-row: 7 / span 2; }
+  .rg_Section--eight {
+    grid-column: 4 / span 1;
+    grid-row: 7 / span 2; } }
+/* If media queries are supported... */
+@media screen and (max-width: 38.125em) {
+  .st_ColourPage {
+    grid-template-columns: 70px repeat(3, 1fr);
+    grid-template-rows: 70px repeat(9, auto); }
+
+  .rg_Section--one {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1; }
+  .rg_Section--two {
+    grid-column: 2 / span 3;
+    grid-row: 1 / span 1; }
+  .rg_Section--three {
+    grid-column: 1 / span 4;
+    grid-row: 10 / span 1; }
+  .rg_Section--four {
+    grid-column: 1 / span 4;
+    grid-row: 2 / span 3; }
+  .rg_Section--five {
+    grid-column: 1 / span 4;
+    grid-row: 9 / span 1; }
+  .rg_Section--six {
+    grid-column: 1 / span 4;
+    grid-row: 5 / span 1; }
+  .rg_Section--seven {
+    grid-column: 1 / span 4;
+    grid-row: 6 / span 1; }
+  .rg_Section--eight {
+    grid-column: 1 / span 4;
+    grid-row: 7 / span 1; } }
 /* != Region - Page Header */
 .rg_PageHeader {
   padding: 30px; }
